@@ -1,0 +1,31 @@
+
+body{
+    background: #bbbbbb;
+}
+*{padding: 0; margin: 5px;}
+#box-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap:10px 10px;
+    grid-auto-rows:minmax(200px, auto) ;
+    justify-items: center;
+}
+
+#blok{ 
+    border-radius: 10px;
+    background: white;
+}
+
+#blok1{ 
+    border-radius: 10px;
+    background: white;
+    grid-area: 3/1/2/3;
+}
+
+#blok2{ 
+    border-radius: 10px;
+    background: white;
+    grid-area: 1/4/2/6;
+}
+
+
